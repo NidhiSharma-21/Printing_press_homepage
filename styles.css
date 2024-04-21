@@ -1,0 +1,87 @@
+body{
+  color: black;
+  margin: 0%;
+  padding: 0%;
+  background-image: url(/modern-printing-press-produces-multi-colored-printouts-accurately-generated-by-ai\ \(2\).jpg);
+ }
+.header{
+ background-color: #CEE6F3;
+ position: sticky;
+ top:0;
+ opacity:1;
+ z-index: 30;
+ 
+
+  
+ }
+   .container{
+    font-family: 'Baloo Paaji 2', cursive;
+   }
+   #box1{
+    /* border: 2px solid black; */
+    position: absolute;
+    left:34px;
+    top: 20px;
+   }
+   #box1 img{
+    width: 120px;
+    height: 120px;
+  position: relative;
+
+   }
+   #box2{
+    /* border: 2px solid red; */
+    width: 43%;
+    margin:12px auto;
+
+   }
+   li{
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 0%;
+    position: relative;
+    bottom: 2px;
+    font-size: 20px;
+    font-weight:bolder;
+    font-family: 'Baloo Paaji 2', cursive;
+    cursor: pointer;
+  }
+  li:hover{
+    text-decoration: underline;
+    color: white;
+  }
+   #box3{
+    /* border:2px solid blue; */
+    position: absolute;
+    right:34px;
+    top: 20px;
+   }
+   #box2 li a{
+    text-decoration: none;
+    color:black;
+   }
+   #box2 li a:hover{
+    text-decoration:underline ;
+    color:white;
+   }
+   .container{
+    display: flex;
+   }
+   .btn{
+    border-radius: 20px;
+    width: 150px;
+    color: black;
+    background-color:white ;
+    font-size: 20px;
+    font-family: 'Baloo Paaji 2', cursive;
+    cursor: pointer;
+    position: relative;
+    top:25px;
+   }
+   .btn:hover{
+    background-color:white;
+    color: grey;
+   }
+ 
